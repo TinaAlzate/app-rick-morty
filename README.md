@@ -15,9 +15,9 @@
   </table>
 
 
- ## :receipt: Description 
+ ## :receipt: Demo 
 
-In this App toy can fun looking for your favorite character of Rick and Morty
+In this App you can fun looking for your favorite character of Rick and Morty
 > You can try our app, [here](http://localhost:5173/characters)
 
  ## :technologist: Guide for developer
