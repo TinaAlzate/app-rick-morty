@@ -5,7 +5,7 @@
     <tr>
       <td align="center">Desktop or laptop</td>
       <td align="center">Tablet</td>
-      <td align="center">Móvil</td>
+      <td align="center">Mobile</td>
     </tr>
     <tr>
       <td align="center"><img src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/edf71d8e-d547-41b0-8961-23cbb38978b2" alt="Desktop"></td>
