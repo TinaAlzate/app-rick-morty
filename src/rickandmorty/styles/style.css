@@ -1,0 +1,22 @@
+.card {
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+  animation-timeline: --card;
+  animation-name: show;
+  animation-range: entry 25% cover 40% ;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-duration: 1s;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0.3;
+
+  }
+
+  100%{
+    opacity: 1;
+
+  }
+}
