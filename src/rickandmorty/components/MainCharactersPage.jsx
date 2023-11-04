@@ -18,8 +18,8 @@ export const MainCharactersPage = ({list}) => {
           {!isLoading && <CharactersList characters={list} />}
           {
             hasMore
-              ? <LoadingData elementRef={elementRef} />
-              : (list.length === 0) && <ResultsNotFound />
+            ? <LoadingData elementRef={elementRef} />
+            : (list.length === 0) && <ResultsNotFound />
           }
         </div>
       </div>
