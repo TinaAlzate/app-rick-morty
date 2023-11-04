@@ -3,7 +3,7 @@
 
   <table align="center">
     <tr>
-      <td align="center">Desktop</td>
+      <td align="center">Desktop or laptop</td>
       <td align="center">Tablet</td>
       <td align="center">Móvil</td>
     </tr>
