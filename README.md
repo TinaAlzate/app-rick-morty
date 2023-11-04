@@ -29,7 +29,7 @@ In this App you can fun looking for your favorite character of Rick and Morty
 - CSS - Tailwind
 
 ### Install
-> If you want to run this proyect in your localhost
+> If you want to deploy this project on your localhost, run the following commands in your terminal, but first make sure you have node and npm installed.
 
 - Clone repository
   
