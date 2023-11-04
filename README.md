@@ -15,12 +15,16 @@
   </table>
 
 
- ## :receipt: Demo 
 
-In this App you can fun looking for your favorite character of Rick and Morty
+## :receipt: Generalities 
+
+In this application you can have fun looking for your favorite Rick and Morty character, you can find out his full name, status, species, last known location and where he was first seen.
+
+## :arrow_forward: Demo
+
 > You can try our app, [here](http://localhost:5173/characters)
 
- ## :technologist: Guide for developer
+## :technologist: Guide for developer
 
 ### Technologies used
 
@@ -34,6 +38,10 @@ In this App you can fun looking for your favorite character of Rick and Morty
 - Clone repository
   
   `git clone https://github.com/TinaAlzate/app-rick-morty.git`
+
+- Enter the project directory
+
+  `cd app-rick-morty`
 
 - Install dependencies
   
