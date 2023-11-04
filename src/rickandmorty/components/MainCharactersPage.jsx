@@ -1,13 +1,13 @@
 import { useRef } from "react";
+import PropTypes from 'prop-types'
 import { CharactersList, LoadCharactersOnIntersection, LoadingData, ResultsNotFound, useCharacters } from "../"
 
 
 export const MainCharactersPage = ({list}) => {
 
   const { hasMore, isLoading } = useCharacters()
-
   const elementRef = useRef(null)
-
+  
   LoadCharactersOnIntersection(elementRef)
 
   return (
@@ -26,3 +26,8 @@ export const MainCharactersPage = ({list}) => {
     </>
   )
 }
+
+MainCharactersPage.propTypes = {
+  list: PropTypes.array.isRequired,
+}
+

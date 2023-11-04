@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const useIntersectionObserver = (elementRef, callback, data) => {
+export const IntersectionObserverFunc = (elementRef, callback, data) => {
 
   useEffect(() => {
     const observer = new IntersectionObserver(callback);
@@ -14,5 +14,5 @@ export const useIntersectionObserver = (elementRef, callback, data) => {
         observer.disconnect();
       }
     };
-  }, [ elementRef, callback, data ]);
+  }, [elementRef, callback, data]);
 };

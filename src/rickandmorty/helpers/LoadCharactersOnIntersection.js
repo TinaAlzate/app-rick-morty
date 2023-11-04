@@ -1,4 +1,4 @@
-import { useCharacters, useIntersectionObserver } from "../hooks";
+import { useCharacters, IntersectionObserverFunc } from "..";
 
 export const LoadCharactersOnIntersection = (elementRef) => {
 
@@ -6,10 +6,10 @@ export const LoadCharactersOnIntersection = (elementRef) => {
 
   const onIntersection = (entries) => {
     const firstEntry = entries[0];
-    if (firstEntry.isIntersecting && hasMore)  getData()
+    if (firstEntry.isIntersecting && hasMore) getData()
   }
 
-  useIntersectionObserver(elementRef, onIntersection, searchResults);
+  IntersectionObserverFunc(elementRef, onIntersection, searchResults);
 
 }
 

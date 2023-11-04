@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export const Logo = ({ fill }) => {
   return (
 
@@ -31,4 +33,8 @@ export const Logo = ({ fill }) => {
       </g>
     </svg>
   )
+}
+
+Logo.propTypes = {
+  fill: PropTypes.string.isRequired,
 }

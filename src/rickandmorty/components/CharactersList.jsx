@@ -19,8 +19,3 @@ export const CharactersList = ({ characters = [] }) => {
 CharactersList.propTypes = {
   characters: PropTypes.array.isRequired,
 }
-
-
-
-
-// grid md: grid - cols - 2 gap - 4 place - items - center

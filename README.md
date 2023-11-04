@@ -1,10 +1,21 @@
 # Rick and Morty React App
 
-<image src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/edf71d8e-d547-41b0-8961-23cbb38978b2" caption="Version desktop">
-  
-<image src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/ee44aada-156a-411b-bf7a-55fbcf56b719">
-  
-<image src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/24d4f1ac-e1e0-437a-9552-f0647e4b0939">
+<div style="display:flex; gap: 5rem; justify-content:center;";>
+  <div style="display:flex; flex-direction:column;">
+    <span>Desktop</span>
+    <image src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/edf71d8e-d547-41b0-8961-23cbb38978b2">
+  </div>
+  <div style="display:flex; flex-direction:column;">
+    <span>Desktop</span>
+    <image src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/ee44aada-156a-411b-bf7a-55fbcf56b719">
+  </div>
+  <div style="display:flex; flex-direction:column;">
+    <span>Desktop</span>
+    <image src="https://github.com/TinaAlzate/TinaAlzate/assets/102864419/24d4f1ac-e1e0-437a-9552-f0647e4b0939">
+  </div>
+</div>
+
+
 
  ## :receipt: Description 
 

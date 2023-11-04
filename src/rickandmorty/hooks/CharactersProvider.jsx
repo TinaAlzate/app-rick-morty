@@ -1,15 +1,6 @@
-import { useContext, createContext, useState, useEffect } from 'react'
-
-export const useCharacters = () => useContext(CharactersContext)
-
-const CharactersContext = createContext({
-  getData: () => { },
-  state: {},
-  search: "",
-  searcher: () => { },
-  searchResults: []
-})
-
+import PropTypes from 'prop-types';
+import { useState, useEffect } from 'react'
+import { CharactersContext } from '.';
 export function CharactersProvider({ children }) {
 
   const initialState = {
@@ -76,3 +67,7 @@ export function CharactersProvider({ children }) {
     </CharactersContext.Provider>
   )
 }
+
+CharactersProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+};

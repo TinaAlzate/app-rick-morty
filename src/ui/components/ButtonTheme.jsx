@@ -1,5 +1,5 @@
-import { Moon, Sun } from "../helpers";
-import { useTheme } from "../hooks/ThemeProvider";
+import { Moon, Sun, useTheme } from "..";
+// import { useTheme } from "../hooks/ThemeProvider";
 
 export const ButtonTheme = () => {
 

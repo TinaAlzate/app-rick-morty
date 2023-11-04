@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types'
 import { NavLink } from "react-router-dom"
+
 
 export const ItemNavbar = ({ to, item }) => {
   return (
@@ -14,4 +16,9 @@ export const ItemNavbar = ({ to, item }) => {
       </NavLink>
     </div>
   )
+}
+
+ItemNavbar.propTypes = {
+  to: PropTypes.string.isRequired,
+  item: PropTypes.string.isRequired,
 }
