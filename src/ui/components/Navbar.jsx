@@ -39,6 +39,7 @@ export const Navbar = () => {
               <ItemNavbar to={'/characters'} item={'Characters'} />
               <ItemNavbar to={'/human'} item={'Human'} />
               <ItemNavbar to={'/alien'} item={'Alien'} />
+              <ItemNavbar to={'/robot'} item={'Robot'} />
             </div>
 
             <div className="relative flex items-center justify-between lg:mr-5 gap-2 md:gap-5">

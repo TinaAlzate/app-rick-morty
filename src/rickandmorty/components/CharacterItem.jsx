@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom';
 import { DescriptionCharacter } from '.';
 import '../styles/style.css'
-import { Link } from 'react-router-dom';
 
 export const CharacterItem = ({ character }) => {
   return (

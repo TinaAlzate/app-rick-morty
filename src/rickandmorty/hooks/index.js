@@ -1,3 +1,6 @@
 export * from './CharactersProvider.jsx'
-export * from './CharacterContext.jsx'
+export * from './CharactersContext.jsx'
 export * from './useCharacters.jsx'
+export * from './SingleCharacterProvider.jsx'
+export * from './SingleCharacterContext.jsx'
+export * from './useSingleCharacter.jsx'
