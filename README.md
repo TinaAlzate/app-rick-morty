@@ -22,7 +22,7 @@ In this application you can have fun looking for your favorite Rick and Morty ch
 
 ## :arrow_forward: Demo
 
-> You can try our app, [here](http://localhost:5173/characters)
+> You can try our app, [here](https://mortyapprick.netlify.app/)
 
 ## :technologist: Guide for developer
 
